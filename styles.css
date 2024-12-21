@@ -83,7 +83,10 @@ section h2 {
 p{
     text-align: center;
 }
-
+.experiences{
+    text-align: Left;
+    padding-left: 50px;
+}
 /* Footer Styles */
 footer {
     background: #333;
