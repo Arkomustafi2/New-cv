@@ -46,7 +46,7 @@ nav ul li a {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
     padding: 1rem;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
