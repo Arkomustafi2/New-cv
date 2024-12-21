@@ -1,18 +1,64 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
 
+/* Header Styles */
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
 
-body{
-  background-color: #EAF6F6;
+/* Navigation Styles */
+nav {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
 }
-hr{
-  background-color: white;
-  border-style: dotted none none;
-  border-color: gray;
-  border-width: 5px;
-  width: 5%;
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
-h1{
-  color: #66BFBF;
+
+nav ul li {
+    margin: 0 1rem;
 }
-h3{
-  color: #66BFBF;
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    color: #4CAF50;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
