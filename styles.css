@@ -40,6 +40,28 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Gallery Section */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
 /* Section Styles */
 section {
     padding: 2rem;
