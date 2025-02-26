@@ -26,7 +26,9 @@ h2 {
     padding-bottom: 5px;
     text-align: center;
 }
-
+h6 {
+    text-align: center;
+}
 /* Header Styles */
 header {
     background: #0D1321;
